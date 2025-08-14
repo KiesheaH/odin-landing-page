@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: orangered;
+}
+
+main {
+  background-color: yellowgreen;
+}
+
+.motto {
+  background-color: turquoise;
+}
+
+.future {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: yellow;
+}
