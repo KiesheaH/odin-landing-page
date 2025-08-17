@@ -6,10 +6,10 @@
 }
 
 .header {
-  height: 95vh;
+  height: 85vh;
   color: #fff;
   padding: 0 15px;
-  background-image: linear-gradient(rgba(0 0 0 / 0.45), rgba(0 0 0 / 0.45)),
+  background-image: linear-gradient(rgba(0 0 0 / 0.4), rgba(0 0 0 / 0.4)),
     url("img/maldives.jpg");
   background-size: cover;
 }
@@ -19,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: orangered; */
   padding: 0 15px;
 }
 
@@ -48,7 +47,7 @@
 }
 
 .hero {
-  height: 90vh;
+  height: 75vh;
   width: inherit;
   display: flex;
   justify-content: center;
@@ -60,20 +59,17 @@
   height: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   margin-bottom: 75px;
 }
 
-.welcome h2 {
+.welcome h1 {
   font-size: 48px;
   font-weight: 900;
 }
 
 .welcome p {
   font-size: 20px;
-  margin-left: 15px;
   line-height: 30px;
 }
 
@@ -89,15 +85,50 @@
   cursor: pointer;
 }
 
-main {
-  background-color: yellowgreen;
+.section {
+  height: 50vh;
+  width: 100%;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 35px;
+  background-color: #f1f3f5;
+}
+
+.destinations h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #010f24;
+  text-align: center;
+}
+
+.trips {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.trip img {
+  width: 300px;
+  height: auto;
+}
+
+.trip p {
+  font-size: 18px;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 .motto {
-  background-color: turquoise;
+  background-color: yellowgreen;
 }
 
-.future {
+.cta {
   background-color: blueviolet;
 }
 
