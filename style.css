@@ -44,8 +44,9 @@
   margin-right: 15px;
 }
 
-.nav-links li {
+.nav-links li a {
   font-size: 25px;
+  text-decoration: none;
 }
 
 /* HERO SECTION */
