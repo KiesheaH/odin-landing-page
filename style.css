@@ -5,6 +5,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* HEADER SECTION */
 .header {
   height: 85vh;
   color: #fff;
@@ -14,6 +15,7 @@
   background-size: cover;
 }
 
+/* NAVIGATION BAR */
 .navigation {
   height: 10vh;
   display: flex;
@@ -46,6 +48,7 @@
   font-size: 25px;
 }
 
+/* HERO SECTION */
 .hero {
   height: 75vh;
   width: inherit;
@@ -85,11 +88,13 @@
   cursor: pointer;
 }
 
+/* SECTIONS SETTING */
 .section {
   height: 50vh;
   width: 100%;
 }
 
+/* PAST DESTINATIONS */
 .destinations {
   display: flex;
   flex-direction: column;
@@ -103,6 +108,7 @@
   font-weight: 900;
   color: #010f24;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .trips {
@@ -125,7 +131,28 @@
 }
 
 .motto {
-  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.motto_info {
+  width: 38%;
+}
+
+.quote {
+  /* width: 50%; */
+  font-size: 36px;
+  font-weight: 200;
+  text-wrap: wrap;
+}
+
+.author {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: right;
 }
 
 .cta {
